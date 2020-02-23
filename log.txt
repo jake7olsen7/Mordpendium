@@ -1,0 +1,3662 @@
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - ERROR --> Dao::getConnection The database exploded PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+    [string:Exception:private] => 
+    [code:protected] => 2002
+    [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+    [line:protected] => 16
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 16
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                            [1] => b1426781dfcbfd
+                            [2] => 8253ca97
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 29
+                    [function] => getConnection
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\login_handler.php
+                    [line] => 5
+                    [function] => getUserPassword
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => Razed
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => PDOException Object
+        (
+            [message:protected] => PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+            [string:Exception:private] => 
+            [code:protected] => 0
+            [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+            [line:protected] => 16
+            [trace:Exception:private] => Array
+                (
+                    [0] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 16
+                            [function] => __construct
+                            [class] => PDO
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                                    [1] => b1426781dfcbfd
+                                    [2] => 8253ca97
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 29
+                            [function] => getConnection
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\login_handler.php
+                            [line] => 5
+                            [function] => getUserPassword
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => Razed
+                                )
+
+                        )
+
+                )
+
+            [previous:Exception:private] => 
+            [errorInfo] => 
+            [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp64\www\Mordpendium\Mordpendium\Dao.php on line <i>16</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0004</td><td bgcolor='#eeeeec' align='right'>405560</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\login_handler.php' bgcolor='#eeeeec'>...\login_handler.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0011</td><td bgcolor='#eeeeec' align='right'>410336</td><td bgcolor='#eeeeec'>Dao->getUserPassword(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\login_handler.php' bgcolor='#eeeeec'>...\login_handler.php<b>:</b>5</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0011</td><td bgcolor='#eeeeec' align='right'>410336</td><td bgcolor='#eeeeec'>Dao->getConnection(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>29</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0012</td><td bgcolor='#eeeeec' align='right'>410744</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>16</td></tr>
+
+            [severity] => 2
+        )
+
+    [errorInfo] => 
+)
+ 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - ERROR --> Dao::getConnection The database exploded PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+    [string:Exception:private] => 
+    [code:protected] => 2002
+    [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+    [line:protected] => 16
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 16
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                            [1] => b1426781dfcbfd
+                            [2] => 8253ca97
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 49
+                    [function] => getConnection
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                    [line] => 71
+                    [function] => getUserUnits
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => PDOException Object
+        (
+            [message:protected] => PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+            [string:Exception:private] => 
+            [code:protected] => 0
+            [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+            [line:protected] => 16
+            [trace:Exception:private] => Array
+                (
+                    [0] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 16
+                            [function] => __construct
+                            [class] => PDO
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                                    [1] => b1426781dfcbfd
+                                    [2] => 8253ca97
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 49
+                            [function] => getConnection
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                            [line] => 71
+                            [function] => getUserUnits
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => 
+                                )
+
+                        )
+
+                )
+
+            [previous:Exception:private] => 
+            [errorInfo] => 
+            [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp64\www\Mordpendium\Mordpendium\Dao.php on line <i>16</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>401320</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0043</td><td bgcolor='#eeeeec' align='right'>406944</td><td bgcolor='#eeeeec'>Dao->getUserUnits(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>71</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0043</td><td bgcolor='#eeeeec' align='right'>406944</td><td bgcolor='#eeeeec'>Dao->getConnection(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>49</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0044</td><td bgcolor='#eeeeec' align='right'>407352</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>16</td></tr>
+
+            [severity] => 2
+        )
+
+    [errorInfo] => 
+)
+ 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - ERROR --> Dao::getConnection The database exploded PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+    [string:Exception:private] => 
+    [code:protected] => 2002
+    [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+    [line:protected] => 16
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 16
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                            [1] => b1426781dfcbfd
+                            [2] => 8253ca97
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 29
+                    [function] => getConnection
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                    [line] => 72
+                    [function] => getUserID
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => razed
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => PDOException Object
+        (
+            [message:protected] => PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+            [string:Exception:private] => 
+            [code:protected] => 0
+            [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+            [line:protected] => 16
+            [trace:Exception:private] => Array
+                (
+                    [0] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 16
+                            [function] => __construct
+                            [class] => PDO
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                                    [1] => b1426781dfcbfd
+                                    [2] => 8253ca97
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 29
+                            [function] => getConnection
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                            [line] => 72
+                            [function] => getUserID
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => razed
+                                )
+
+                        )
+
+                )
+
+            [previous:Exception:private] => 
+            [errorInfo] => 
+            [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp64\www\Mordpendium\Mordpendium\Dao.php on line <i>16</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0023</td><td bgcolor='#eeeeec' align='right'>404352</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0057</td><td bgcolor='#eeeeec' align='right'>411480</td><td bgcolor='#eeeeec'>Dao->getUserID(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>72</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0057</td><td bgcolor='#eeeeec' align='right'>411480</td><td bgcolor='#eeeeec'>Dao->getConnection(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>29</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0059</td><td bgcolor='#eeeeec' align='right'>411888</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>16</td></tr>
+
+            [severity] => 2
+        )
+
+    [errorInfo] => 
+)
+ 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - ERROR --> Dao::getConnection The database exploded PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+    [string:Exception:private] => 
+    [code:protected] => 2002
+    [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+    [line:protected] => 16
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 16
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                            [1] => b1426781dfcbfd
+                            [2] => 8253ca97
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 29
+                    [function] => getConnection
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                    [line] => 73
+                    [function] => getUserID
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => razed
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => PDOException Object
+        (
+            [message:protected] => PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+            [string:Exception:private] => 
+            [code:protected] => 0
+            [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+            [line:protected] => 16
+            [trace:Exception:private] => Array
+                (
+                    [0] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 16
+                            [function] => __construct
+                            [class] => PDO
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                                    [1] => b1426781dfcbfd
+                                    [2] => 8253ca97
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 29
+                            [function] => getConnection
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                            [line] => 73
+                            [function] => getUserID
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => razed
+                                )
+
+                        )
+
+                )
+
+            [previous:Exception:private] => 
+            [errorInfo] => 
+            [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp64\www\Mordpendium\Mordpendium\Dao.php on line <i>16</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0025</td><td bgcolor='#eeeeec' align='right'>404320</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0054</td><td bgcolor='#eeeeec' align='right'>411448</td><td bgcolor='#eeeeec'>Dao->getUserID(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>73</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0054</td><td bgcolor='#eeeeec' align='right'>411448</td><td bgcolor='#eeeeec'>Dao->getConnection(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>29</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0056</td><td bgcolor='#eeeeec' align='right'>411856</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>16</td></tr>
+
+            [severity] => 2
+        )
+
+    [errorInfo] => 
+)
+ 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - ERROR --> Dao::getConnection The database exploded PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+    [string:Exception:private] => 
+    [code:protected] => 2002
+    [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+    [line:protected] => 16
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 16
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                            [1] => b1426781dfcbfd
+                            [2] => 8253ca97
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 29
+                    [function] => getConnection
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                    [line] => 74
+                    [function] => getUserID
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => newguy
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => PDOException Object
+        (
+            [message:protected] => PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+            [string:Exception:private] => 
+            [code:protected] => 0
+            [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+            [line:protected] => 16
+            [trace:Exception:private] => Array
+                (
+                    [0] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 16
+                            [function] => __construct
+                            [class] => PDO
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                                    [1] => b1426781dfcbfd
+                                    [2] => 8253ca97
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 29
+                            [function] => getConnection
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                            [line] => 74
+                            [function] => getUserID
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => newguy
+                                )
+
+                        )
+
+                )
+
+            [previous:Exception:private] => 
+            [errorInfo] => 
+            [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp64\www\Mordpendium\Mordpendium\Dao.php on line <i>16</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0006</td><td bgcolor='#eeeeec' align='right'>402560</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0016</td><td bgcolor='#eeeeec' align='right'>410008</td><td bgcolor='#eeeeec'>Dao->getUserID(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>74</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0016</td><td bgcolor='#eeeeec' align='right'>410008</td><td bgcolor='#eeeeec'>Dao->getConnection(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>29</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0016</td><td bgcolor='#eeeeec' align='right'>410416</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>16</td></tr>
+
+            [severity] => 2
+        )
+
+    [errorInfo] => 
+)
+ 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - ERROR --> Dao::getConnection The database exploded PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+    [string:Exception:private] => 
+    [code:protected] => 2002
+    [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+    [line:protected] => 16
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 16
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                            [1] => b1426781dfcbfd
+                            [2] => 8253ca97
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 67
+                    [function] => getConnection
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\updateUnit.php
+                    [line] => 71
+                    [function] => getUnit
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => 2
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => PDOException Object
+        (
+            [message:protected] => PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+            [string:Exception:private] => 
+            [code:protected] => 0
+            [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+            [line:protected] => 16
+            [trace:Exception:private] => Array
+                (
+                    [0] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 16
+                            [function] => __construct
+                            [class] => PDO
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                                    [1] => b1426781dfcbfd
+                                    [2] => 8253ca97
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 67
+                            [function] => getConnection
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\updateUnit.php
+                            [line] => 71
+                            [function] => getUnit
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => 2
+                                )
+
+                        )
+
+                )
+
+            [previous:Exception:private] => 
+            [errorInfo] => 
+            [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp64\www\Mordpendium\Mordpendium\Dao.php on line <i>16</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0011</td><td bgcolor='#eeeeec' align='right'>406384</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\updateUnit.php' bgcolor='#eeeeec'>...\updateUnit.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0022</td><td bgcolor='#eeeeec' align='right'>411464</td><td bgcolor='#eeeeec'>Dao->getUnit(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\updateUnit.php' bgcolor='#eeeeec'>...\updateUnit.php<b>:</b>71</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0022</td><td bgcolor='#eeeeec' align='right'>411464</td><td bgcolor='#eeeeec'>Dao->getConnection(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>67</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0023</td><td bgcolor='#eeeeec' align='right'>411872</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>16</td></tr>
+
+            [severity] => 2
+        )
+
+    [errorInfo] => 
+)
+ 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - ERROR --> Dao::getConnection The database exploded PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+    [string:Exception:private] => 
+    [code:protected] => 2002
+    [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+    [line:protected] => 16
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 16
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                            [1] => b1426781dfcbfd
+                            [2] => 8253ca97
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 29
+                    [function] => getConnection
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                    [line] => 74
+                    [function] => getUserID
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => razed
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => PDOException Object
+        (
+            [message:protected] => PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+            [string:Exception:private] => 
+            [code:protected] => 0
+            [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+            [line:protected] => 16
+            [trace:Exception:private] => Array
+                (
+                    [0] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 16
+                            [function] => __construct
+                            [class] => PDO
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                                    [1] => b1426781dfcbfd
+                                    [2] => 8253ca97
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 29
+                            [function] => getConnection
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                            [line] => 74
+                            [function] => getUserID
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => razed
+                                )
+
+                        )
+
+                )
+
+            [previous:Exception:private] => 
+            [errorInfo] => 
+            [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp64\www\Mordpendium\Mordpendium\Dao.php on line <i>16</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0007</td><td bgcolor='#eeeeec' align='right'>402864</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0048</td><td bgcolor='#eeeeec' align='right'>411416</td><td bgcolor='#eeeeec'>Dao->getUserID(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>74</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0048</td><td bgcolor='#eeeeec' align='right'>411416</td><td bgcolor='#eeeeec'>Dao->getConnection(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>29</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0049</td><td bgcolor='#eeeeec' align='right'>411824</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>16</td></tr>
+
+            [severity] => 2
+        )
+
+    [errorInfo] => 
+)
+ 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - ERROR --> Dao::getConnection The database exploded PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. 
+    [string:Exception:private] => 
+    [code:protected] => 2002
+    [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+    [line:protected] => 16
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 16
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                            [1] => b1426781dfcbfd
+                            [2] => 8253ca97
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                    [line] => 25
+                    [function] => getConnection
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                    [line] => 74
+                    [function] => getUserID
+                    [class] => Dao
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => extra
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => PDOException Object
+        (
+            [message:protected] => PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+            [string:Exception:private] => 
+            [code:protected] => 0
+            [file:protected] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+            [line:protected] => 16
+            [trace:Exception:private] => Array
+                (
+                    [0] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 16
+                            [function] => __construct
+                            [class] => PDO
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => mysql:host=us-cdbr-iron-east-03.cleardb.net;dbname=heroku_c80582da74a0307
+                                    [1] => b1426781dfcbfd
+                                    [2] => 8253ca97
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\Dao.php
+                            [line] => 25
+                            [function] => getConnection
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [file] => C:\wamp64\www\Mordpendium\Mordpendium\warbands.php
+                            [line] => 74
+                            [function] => getUserID
+                            [class] => Dao
+                            [type] => ->
+                            [args] => Array
+                                (
+                                    [0] => extra
+                                )
+
+                        )
+
+                )
+
+            [previous:Exception:private] => 
+            [errorInfo] => 
+            [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp64\www\Mordpendium\Mordpendium\Dao.php on line <i>16</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0001</td><td bgcolor='#eeeeec' align='right'>402528</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0006</td><td bgcolor='#eeeeec' align='right'>410608</td><td bgcolor='#eeeeec'>Dao->getUserID(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\warbands.php' bgcolor='#eeeeec'>...\warbands.php<b>:</b>74</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0006</td><td bgcolor='#eeeeec' align='right'>410608</td><td bgcolor='#eeeeec'>Dao->getConnection(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>25</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0006</td><td bgcolor='#eeeeec' align='right'>411016</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='C:\wamp64\www\Mordpendium\Mordpendium\Dao.php' bgcolor='#eeeeec'>...\Dao.php<b>:</b>16</td></tr>
+
+            [severity] => 2
+        )
+
+    [errorInfo] => 
+)
+ 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 
+now - DEBUG --> Getting a connection. 

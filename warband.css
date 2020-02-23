@@ -1,0 +1,181 @@
+table {
+  margin: auto;
+  border:3px solid black;
+}
+td {
+  font-family:'Exocet Heavy';
+  width: 17px;
+  text-align:center;
+  border: 1px solid black;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  resize: none;
+}
+#stat_header {
+  font-size:10px;
+}
+#spaceDIV{
+	height:75px;
+	width:100%;
+}
+#xp {
+  float:right;
+  margin: 0px 5px 0px 0px;
+}
+#deletebutton {
+	position:relative;
+	top:-50px;
+	right: -60px;
+	padding:4px;
+	float:right;
+}
+#updatebutton {
+	position:relative;
+	top:-5px;
+	right: -110px;
+	padding:3px;
+	float:right;
+}
+#hiddenfield{
+	display:none;
+}
+#deleteUnitSubmit{
+	position:relative;
+	top:40px;
+}
+#updateUnitSubmit{
+	position:relative;
+	top:40px;
+}
+.stat_font{
+  font-family:'Exocet Light';
+  font-size:12px;
+}
+.open_text{
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+#max_stats{
+  float:left
+  font-family:'Exocet Light';
+  font-size:12px;
+  width:50px;
+}
+#main_stats{
+  margin: 20px 0px 20px 5px;
+}
+#xpspan {
+  margin: 10px 0px;
+  float:left;
+}
+#skills{
+	margin: 10px 0px;
+	float:left;
+	max-width:170px;
+	font-size:12px;
+}
+.luckButton {
+	position:relative;
+	top:40px;
+	right: -160px;
+	padding:4px;
+	float:right;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.deadButton {
+	position:relative;
+	top:80px;
+	right: -200px;
+	padding:4px;
+	float:right;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.red {
+	background-color: red;
+	color:white;
+}
+.blue {
+	background-color: blue;
+	color:white;
+}
+.inputStat {
+	width:30px;
+}
+.inputEXP {
+	width:40px;
+}
+.nobounds {
+	margin:0px;
+	padding:0px;
+}
+.large_bold {
+  font-family:'Exocet Heavy';
+  font-size:15px;
+}
+
+.title_type {
+  margin: 0px 0px 2px 5px;
+  border-bottom:2px solid #000;
+}
+.rcorners {
+  float:left;
+  margin: 20px;
+  border-radius: 7px;
+  border: 2px solid #000;
+  height: 150px; 
+}
+.flex-container {
+  background-color: white;
+  float:left;
+  font-family: 'Exocet Light';
+  width:250px;
+  margin: 20px 0px;
+  border-radius: 7px;
+  border: 2px solid #000;
+  height: 165px; 
+}
+.create_flex_container {
+	position:relative;
+  background-color: white;
+  float:left;
+  font-family: 'Exocet Light';
+  min-width:250px;
+  margin: 20px 0px;
+  border-radius: 7px;
+  border: 2px solid #000;
+  height: 180px; 
+}
+.base_stats {
+  float:left;
+  min-width:200px;
+  margin:0px;
+  height: 150px; 
+  font-family: 'Exocet Light';
+  border-right: 2px solid black;
+}
+#unitRow{
+	width:840px;
+	border: 0px;
+}
+@font-face {
+  font-family: 'Exocet Heavy';
+  src:  url('Exocet Heavy.woff2') format('woff2'),
+        url('Exocet Heavy.woff') format('woff'),
+		url('Exocet Heavy.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Exocet Light';
+  src:  url('Exocet Light.woff2') format('woff2'),
+        url('Exocet Light.woff') format('woff'),
+		url('Exocet Light.ttf') format('truetype');
+}
